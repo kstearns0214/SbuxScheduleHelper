@@ -1,0 +1,21 @@
+{
+    "name": "SbuxScheduleHelper",
+    "version": "1.0",
+    "description": "Exports a Sbux schedule to Google Calendar.",
+    "manifest_version": 3,
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmqQoOnkTXkMSMIDQuKfNI3lM8pjlR1dtblKTEmA8qS2Ogd92N13yP0Y0T13ZAm3yUf328bjvaqIB6yegEhnhUq3XL0h0oNOdKpCGqMOYEP+hajTT9g3ckbVUgeoknEwaaV7gexv64lAPuf7+0kjfynyCDNtbaMUfZ9UnhexPBoq84bxmjfLeXv6ertkGnIru9Nptxklrx/W+U4H79o4WccVuu7UxcL9MKBRBk7vRJ2lW+AKQUdjMLVYTLTiTWEvWV4MuQH5oOKfMKhzwQbEAYUOAbaAwB818whjSzg2g1+2HINp+AGvYYxEjliNqZ2eFnJZVG2LptS8Gih3UUyCruwIDAQAB",
+    "oauth2": {
+        "client_id": "812211410952-ir58m21b9sh0tbim6kdgi6fhcivmd41o.apps.googleusercontent.com",
+        "scopes":["https://www.googleapis.com/auth/userinfo.email", "https://www.googleapis.com/auth/calendar"]
+    },
+    "permissions": [
+        "identity"
+    ],
+    "action": {
+      "default_title": "SbuxScheduleHelper"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+
+  }
